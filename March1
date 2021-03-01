@@ -13,3 +13,16 @@ function a(stepNumber){
 }
 console.log("value of cat is outside function is " + cat);
 console.log(a(5));
+
+
+function b(a){
+if (a > 0) {
+    return "positive";
+} else if (a === 0) {
+    return "It’s a zero";
+} else {
+    return "NOT positive";
+} }
+
+var theanswer = b(-1);
+console.log(theanswer);

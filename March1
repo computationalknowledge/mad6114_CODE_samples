@@ -1,0 +1,15 @@
+var dog = "Peanut";
+let cat = "Fifi";
+var six = 6;
+function a(stepNumber){
+    var sum = 0;
+    var counter = 1;
+    six += 1;
+    console.log("let's try incrementing six " + six++);
+    for (stepNumber  ; counter <=100  ; ){
+        sum += counter += stepNumber;
+    }
+    return sum;
+}
+console.log("value of cat is outside function is " + cat);
+console.log(a(5));

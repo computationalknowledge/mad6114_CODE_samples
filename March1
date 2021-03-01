@@ -26,3 +26,18 @@ if (a > 0) {
 
 var theanswer = b(-1);
 console.log(theanswer);
+
+
+Here we see that classes (really prototypes) in JavaScript are created using Associative Array NOTATION:
+
+let obj = {
+		studentname: "John",
+		age: 17,
+        studentid: "C993",
+        outputStudentRecord() {
+                return this.studentname + " " + this.age + " " + this.studentid;
+            }
+};
+// console.log(obj.studentname );
+console.log(obj['age']);
+// console.log(obj.outputStudentRecord());

@@ -44,3 +44,29 @@
     </script>
 </body>
 </html>
+
+
+ <!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>Get Text Input Field Value in JavaScript</title>
+	</head>
+	<body>
+	    <input type="number" placeholder="First N." id="myInput">
+       <input type="number" placeholder="Second Num" id="sec2">
+
+	    <button type="button" onclick="getInputValue();">Get Value</button>
+	    
+	    <script>
+	        function getInputValue(){
+	            // Selecting the input element and get its value 
+	            var inputVal = document.getElementById("myInput").value;
+	                 var inputVa2 = document.getElementById("sec2").value;
+	            // Displaying the value
+            var intsum =  Number(inputVal) + Number(inputVa2);
+	            alert(intsum);
+	        }
+	    </script>
+	</body>
+	</html>

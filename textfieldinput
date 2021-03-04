@@ -19,3 +19,28 @@
     </script>
 </body>
 </html>
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get Text Input Field Value in JavaScript</title>
+</head>
+<body>
+    <input type="text" placeholder="Type a number" id="firstInput">
+    <input type="text" placeholder="Type another number" id="secondInput">
+    
+    <button type="button" onclick="addNumbers();">Add Numbers</button>
+    
+    <script>
+        function addNumbers(){
+            
+            var firstInput = document.getElementById("firstInput").value;
+            var secondInput = document.getElementById("secondInput").value;
+            var output = firstInput + secondInput.value;
+            alert(output);
+        }
+    </script>
+</body>
+</html>
